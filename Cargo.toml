@@ -1,0 +1,12 @@
+[package]
+name = "rustfs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuse = "0.3"
+libc = "0.2"
+time = "0.1"
+log = "0.4"
+env_logger = "0.9"
+clap = { version = "4.0", features = ["derive"]}
